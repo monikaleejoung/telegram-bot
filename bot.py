@@ -12,7 +12,9 @@ logging.basicConfig(
 
 # Configuration
 PASSWORD = "123456"  # Your access password - change this to something secure!
-BOT_TOKEN = "7305836786:AAFSdqidLT4GXWJHfHKYY-XGD5zOUPAoE94"  # Replace with your actual bot token from @BotFather
+# Replace with your actual bot token from @BotFather
+BOT_TOKEN = "Your_bot_token"
+
 
 # Store logged-in users (in memory - will reset when bot restarts)
 logged_in_users = set()
