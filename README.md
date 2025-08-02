@@ -22,9 +22,13 @@ pip install -r requirements.txt
 ### 2. Get Your Bot Token
 
 1. Open Telegram and search for `@BotFather`
-2. Send `/newbot` command
-3. Follow the instructions to create your bot
-4. Copy the bot token (looks like: `123456789:ABCdefGHIjklMNOpqrsTUVwxyz`)
+2. Start a chat with `@BotFather` and send the command `/start`
+3. Send the command `/newbot to` create a newbot
+4. Follow the instructions:
+   Enter a username for your bot (must end with bot, e.g., MyNotesBot2025_bot)
+5. After successful creation, copy the bot token sent by BotFather (it looks like `123456789:ABCdefGHIjklMNOpqrsTUVwxyz`)
+6. Use this token in your bot code to connect your bot to Telegram
+
 
 ### 3. Configure Your Bot
 
